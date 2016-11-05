@@ -14,6 +14,8 @@
 		184689B11DC9E4460082C4FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184689B01DC9E4460082C4FA /* Assets.xcassets */; };
 		184689B41DC9E4460082C4FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184689B21DC9E4460082C4FA /* LaunchScreen.storyboard */; };
 		184689BF1DC9E4460082C4FA /* CustomDelegateExmpleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 184689BE1DC9E4460082C4FA /* CustomDelegateExmpleTests.m */; };
+		184689CC1DC9E6E80082C4FA /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 184689CA1DC9E6E80082C4FA /* CustomCell.m */; };
+		184689CD1DC9E6E80082C4FA /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184689CB1DC9E6E80082C4FA /* CustomCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		184689BA1DC9E4460082C4FA /* CustomDelegateExmpleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomDelegateExmpleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		184689BE1DC9E4460082C4FA /* CustomDelegateExmpleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomDelegateExmpleTests.m; sourceTree = "<group>"; };
 		184689C01DC9E4460082C4FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184689C91DC9E6E80082C4FA /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		184689CA1DC9E6E80082C4FA /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		184689CB1DC9E6E80082C4FA /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +95,9 @@
 				184689B21DC9E4460082C4FA /* LaunchScreen.storyboard */,
 				184689B51DC9E4460082C4FA /* Info.plist */,
 				184689A41DC9E4460082C4FA /* Supporting Files */,
+				184689C91DC9E6E80082C4FA /* CustomCell.h */,
+				184689CA1DC9E6E80082C4FA /* CustomCell.m */,
+				184689CB1DC9E6E80082C4FA /* CustomCell.xib */,
 			);
 			path = CustomDelegateExmple;
 			sourceTree = "<group>";
@@ -160,6 +168,7 @@
 				TargetAttributes = {
 					184689A01DC9E4460082C4FA = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7E4566DB8X;
 						ProvisioningStyle = Automatic;
 					};
 					184689B91DC9E4460082C4FA = {
@@ -195,6 +204,7 @@
 			files = (
 				184689B41DC9E4460082C4FA /* LaunchScreen.storyboard in Resources */,
 				184689B11DC9E4460082C4FA /* Assets.xcassets in Resources */,
+				184689CD1DC9E6E80082C4FA /* CustomCell.xib in Resources */,
 				184689AF1DC9E4460082C4FA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,6 +225,7 @@
 			files = (
 				184689AC1DC9E4460082C4FA /* ViewController.m in Sources */,
 				184689A91DC9E4460082C4FA /* AppDelegate.m in Sources */,
+				184689CC1DC9E6E80082C4FA /* CustomCell.m in Sources */,
 				184689A61DC9E4460082C4FA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,6 +362,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7E4566DB8X;
 				INFOPLIST_FILE = CustomDelegateExmple/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Joyal-Clifford.CustomDelegateExmple";
@@ -362,6 +374,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7E4566DB8X;
 				INFOPLIST_FILE = CustomDelegateExmple/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Joyal-Clifford.CustomDelegateExmple";
@@ -412,6 +425,7 @@
 				184689C51DC9E4460082C4FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		184689C61DC9E4460082C4FA /* Build configuration list for PBXNativeTarget "CustomDelegateExmpleTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +434,7 @@
 				184689C81DC9E4460082C4FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
